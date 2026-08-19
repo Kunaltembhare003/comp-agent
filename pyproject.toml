@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comp-agent"
+version = "0.1.0"
+description = "comp-agent project"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [ { name = "Kunal Tembhare" } ]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools]
+package-dir = { "" = "src" }
