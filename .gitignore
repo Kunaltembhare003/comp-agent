@@ -1,0 +1,33 @@
+# General
+.DS_Store
+Thumbs.db
+
+# macOS
+.AppleDouble
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+
+# Virtual environment
+.venv/
+
+# Editor / IDE
+.vscode/
+*.swp
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
